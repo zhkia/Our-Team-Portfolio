@@ -5,26 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phoenix Coder - Group 5 Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <h2 class="logo">🔥 Phoenix Coder</h2>
-            <button class="menu-toggle">☰</button>
+            <h2 class="logo"> Phoenix Coder</h2>
             <ul class="nav-links">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <button id="mode-toggle" class="mode-toggle" aria-label="Toggle dark and light mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
             </ul>
         </div>
     </nav>
 
     <header>
-        <h1>🔥 Welcome to Our Group Portfolio 🔥</h1>
+        <h1> Welcome to Our Group Portfolio </h1>
         <p><strong>Group Name:</strong> Phoenix Coder | <strong>Group Number:</strong> 5</p>
     </header>
 
     <section class="group-profile fade-in">
-        <img src="images/group photo.jpg" alt="Group Photo" class="group-img">
+        <img src="images/Group picture.jpg" alt="Group Photo" class="group-img">
         <div class="group-description">
             <h2>About Our Group</h2>
             <p>We are <strong>Phoenix Coder – Group 5</strong>, a team of passionate students who rise to every challenge. We combine teamwork, creativity, and coding skills to turn ideas into digital projects that inspire and connect people.</p>
@@ -37,7 +42,11 @@
 
         <div class="member" onclick="toggleSolo('sorio')">
             <img src="images/sorio.jpg" alt="Kim Khenette M. Sorio" class="profile-img">
-            <h3>Sorio, Kim Khenette M. <span class="role">(Leader)</span></h3>
+            <h3>Sorio, Kim Khenette M. <span class="role">Leader</span></h3>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/1KAD4hJaDv/" target="_blank" aria-label="Facebook Profile"><i class="fab fa-facebook"></i></a>
+                <a href="https://youtube.com/@kimsorio-x5e?si=5rCxMV9JVPleKxUC" target="_blank" aria-label="YouTube Channel"><i class="fab fa-youtube"></i></a>
+            </div>
             <div id="sorio" class="details">
                 <p><strong>Explanation:</strong> Kim leads the team with strong leadership and creativity.</p>
                 <p><strong>Output:</strong> Created the main layout and coordinated the coding workflow.</p>
@@ -47,7 +56,11 @@
 
         <div class="member" onclick="toggleSolo('juarez')">
             <img src="images/juarez.jpg" alt="Hezekiah Eran S. Juarez" class="profile-img">
-            <h3>Juarez, Hezekiah Eran S. <span class="role">(Member)</span></h3>
+            <h3>Juarez, Hezekiah Eran S. <span class="role">Member</span></h3>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/16SznbNnhB/" target="_blank" aria-label="Facebook Profile"><i class="fab fa-facebook"></i></a>
+                <a href="https://youtube.com/@hezekiaheranjuarez8454?si=hmPFFYjGOC5ToDjx" target="_blank" aria-label="YouTube Channel"><i class="fab fa-youtube"></i></a>
+            </div>
             <div id="juarez" class="details">
                 <p><strong>Explanation:</strong> Hezekiah specializes in web design and layout concepts.</p>
                 <p><strong>Output:</strong> Developed color schemes and hover effects.</p>
@@ -56,7 +69,11 @@
 
         <div class="member" onclick="toggleSolo('illana')">
             <img src="images/illana.jpg" alt="Reiden John J. Illana" class="profile-img">
-            <h3>Illana, Reiden John J. <span class="role">(Member)</span></h3>
+            <h3>Illana, Reiden John J. <span class="role">Member</span></h3>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/1CZLZjugDK/" target="_blank" aria-label="Facebook Profile"><i class="fab fa-facebook"></i></a>
+                <a href="https://youtube.com/@illanareidenjohnj?si=wVtdg51_puA-yshm" target="_blank" aria-label="YouTube Channel"><i class="fab fa-youtube"></i></a>
+            </div>
             <div id="illana" class="details">
                 <p><strong>Explanation:</strong> Reiden works mainly on coding and backend structure.</p>
                 <p><strong>Output:</strong> Added interactive JavaScript functions for the project.</p>
@@ -65,7 +82,11 @@
 
         <div class="member" onclick="toggleSolo('samson')">
             <img src="images/samson.jpg" alt="Alexander Raven R. Samson" class="profile-img">
-            <h3>Samson, Alexander Raven R. <span class="role">(Member)</span></h3>
+            <h3>Samson, Alexander Raven R. <span class="role">Member</span></h3>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/1FKSe4k3ea/" target="_blank" aria-label="Facebook Profile"><i class="fab fa-facebook"></i></a>
+                <a href="https://youtube.com/@raven-official30?si=C9fbakDWHE3K1AOF" target="_blank" aria-label="YouTube Channel"><i class="fab fa-youtube"></i></a>
+            </div>
             <div id="samson" class="details">
                 <p><strong>Explanation:</strong> Alexander assists in content writing and editing.</p>
                 <p><strong>Output:</strong> Refined descriptions and improved wording.</p>
@@ -74,7 +95,11 @@
 
         <div class="member" onclick="toggleSolo('ballesca')">
             <img src="images/ballesca.jpg" alt="Mark Angelo M. Ballesca" class="profile-img">
-            <h3>Ballesca, Mark Angelo M. <span class="role">(Member)</span></h3>
+            <h3>Ballesca, Mark Angelo M. <span class="role">Member</span></h3>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/17SLrvpZpK/" target="_blank" aria-label="Facebook Profile"><i class="fab fa-facebook"></i></a>
+                <a href="https://youtube.com/@ballescamarkangelo?si=1BJkfaXaY9ATxtPP" target="_blank" aria-label="YouTube Channel"><i class="fab fa-youtube"></i></a>
+            </div>
             <div id="ballesca" class="details">
                 <p><strong>Explanation:</strong> Mark focuses on idea development and layout planning.</p>
                 <p><strong>Output:</strong> Suggested visual effects and tested color combinations.</p>
@@ -94,7 +119,4 @@
 
     <script src="js/script.js"></script>
 </body>
-
 </html>
-
-
